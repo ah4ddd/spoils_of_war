@@ -160,34 +160,50 @@ const Index = () => {
                     links={communityResources}
                 />
             </main>
-
             {/* Footer */}
             <footer className="border-t border-border/40 bg-background/80 backdrop-blur-sm">
                 <div className="container mx-auto px-6 py-8 text-center">
                     <p className="text-muted-foreground mb-4">
                         “Happiness is the feeling that power increases - that resistance is being overcome” ― Friedrich Nietzsche
                     </p>
-                    <Button variant="ghost" asChild className="gap-2">
+
+                    <div className="flex flex-col items-center gap-1">
+                        {/* GitHub icon */}
                         <a
                             href="https://github.com/ah4ddd"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex flex-col items-center gap-1"
+                            className="hover:text-blue-500 transition-colors text-current outline-none"
+                            style={{ WebkitTapHighlightColor: 'transparent' }}
                         >
                             <Github className="h-4 w-4" />
-                            <span>Made by Ahad (GitHub: ah4ddd)</span>
-                            <a
-                                href="https://github.com/ah4ddd/spoils_of_war"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-sm underline hover:text-primary"
-                            >
-                                This project is open source, feel free to contribute
-                            </a>
                         </a>
-                    </Button>
+
+                        {/* My git*/}
+                        <a
+                            href="https://github.com/ah4ddd"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-blue-500 transition-colors text-current outline-none"
+                            style={{ WebkitTapHighlightColor: 'transparent' }}
+                        >
+                            Made by Ahad
+                        </a>
+
+                        {/* Project link */}
+                        <a
+                            href="https://github.com/ah4ddd/spoils_of_war"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-sm underline hover:text-blue-500 transition-colors text-current outline-none"
+                            style={{ WebkitTapHighlightColor: 'transparent' }}
+                        >
+                            This project is open source, feel free to contribute
+                        </a>
+                    </div>
                 </div>
             </footer>
+
         </div>
     );
 };
