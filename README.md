@@ -73,23 +73,6 @@ src/
 └── index.css          # Global styles & design tokens
 ```
 
-## Deployment
-
-### Render Deployment
-
-1. Push your code to GitHub
-2. Connect your GitHub repository to Render
-3. Configure build settings:
-   - **Build Command**: `npm run build`
-   - **Publish Directory**: `dist`
-4. Deploy automatically on every push to main branch
-
-### Other Platforms
-
-- **Vercel**: `vercel --prod`
-- **Netlify**: Drag & drop `dist` folder
-- **GitHub Pages**: Use GitHub Actions workflow
-
 ## Contributing
 
 1. Fork the repository
@@ -104,4 +87,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Made with ⚡ by [ahad](https://github.com/ah4ddd)**
+**Made with ⚡ by [Ahad](https://github.com/ah4ddd)**
