@@ -164,7 +164,7 @@ const Index = () => {
             <footer className="border-t border-border/40 bg-background/80 backdrop-blur-sm">
                 <div className="container mx-auto px-6 py-8 text-center">
                     <p className="text-muted-foreground mb-4">
-                        “Happiness is the feeling that power increases - that resistance is being overcome” ― Friedrich Nietzsche
+                        That which is done out of love always takes place beyond good and evil
                     </p>
 
                     <div className="flex flex-col items-center gap-1">
