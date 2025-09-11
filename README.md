@@ -2,7 +2,7 @@
 
 > *"Culture is not a commodity — it’s loot, and this lair is where you stash it."*
 
-Welcome to **[Ahad's Lair](https://spoils-of-war.onrender.com/)** — a curated arsenal of digital anarchy, where you don’t just consume, you conquer.
+Welcome to **[Spoils of War](https://spoils-of-war.onrender.com/)** — a curated arsenal of digital anarchy, where you don’t just consume, you conquer.
 Movies, games, books, anime, music, software, and every forbidden pleasure you’ve ever wanted — all mapped out, sharpened, and ready to raid.
 
 ---
