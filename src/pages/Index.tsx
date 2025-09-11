@@ -1,6 +1,6 @@
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { ResourceSection } from "@/components/ResourceSection";
-import { Github, Tv, Gamepad2, BookOpen, Music, HardDrive, Smartphone, Shield, Users } from "lucide-react";
+import { Github, Tv, Gamepad2, BookOpen, Music, HardDrive, Smartphone, Shield, Users, Wrench, AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -72,6 +72,26 @@ const Index = () => {
         { name: "r/CrackWatch", url: "https://www.reddit.com/r/CrackWatch/", description: "Game crack updates" },
         { name: "r/FREEMEDIAHECKYEAH", url: "https://www.reddit.com/r/FREEMEDIAHECKYEAH/", description: "Free media resources" },
     ];
+
+    const toolkitResources = [
+        { name: "qBittorrent", url: "https://www.qbittorrent.org", description: "Your main gun for grabbing movies, games, anime, whatever. Lightweight, clean, no bloat, supports magnet links." },
+        { name: "VLC Media Player", url: "https://www.videolan.org/vlc", description: "Plays literally anything. Movies, anime, music, you name it. Don't let shitty codecs slow you down." },
+        { name: "JDownloader 2", url: "http://jdownloader.org/download/index", description: "Your grenade launcher for Mega, MediaFire, Rapidgator, Zippyshare. Handles multiple links, pauses/resumes, saves a ton of time." },
+        { name: "Brave Browser (must)", url: "https://brave.com", description: "Your vessel through the corporate seas. Blocks ads, trackers, and pop-ups." },
+        { name: "ProtonVPN (Free tier)", url: "https://protonvpn.com/download", description: "Hide your ass, literally. Encrypts traffic, hides IP. Don't trust free VPNs with mod downloads — use these tested ones." },
+        { name: "Mullvad", url: "https://mullvad.net/en/download/", description: "Premium VPN service for serious privacy protection" },
+        { name: "Windscribe (Free tier)", url: "https://windscribe.com/download", description: "Another trusted VPN option with free tier available" },
+        { name: "Grad flud or any desired torrent for android/ios", url: "https://play.google.com/store/apps/details?id=com.delphicoder.flud&hl=en_IN&pli=1", description: "Try grabbing from mobilism if ads bothers you nuch" },
+    ];
+
+    const safetyTipsResources = [
+        { name: "Turn off antivirus for cracks", url: "", description: "They cry at everything, sometimes false positives." },
+        { name: "Run mods offline if you're paranoid", url: "", description: "Extra layer of security for unknown software" },
+        { name: "Use sandbox or virtual machine", url: "", description: "For sketchy tools or unknown EXEs - isolate potential threats" },
+        { name: "Check mobile app permissions", url: "", description: "Nothing more than storage + network for FilmPlus/Spotify MODs" },
+        { name: "Keep backups", url: "", description: "Your phone/pc is treasure chest - protect it" },
+    ];
+
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
@@ -158,6 +178,20 @@ const Index = () => {
                     icon={<Users className="h-6 w-6" />}
                     quote=""
                     links={communityResources}
+                />
+
+                <ResourceSection
+                    title="Toolkits"
+                    icon={<Wrench className="h-6 w-6" />}
+                    quote=""
+                    links={toolkitResources}
+                />
+
+                <ResourceSection
+                    title="Safety Tips"
+                    icon={<AlertTriangle className="h-6 w-6" />}
+                    quote=""
+                    links={safetyTipsResources}
                 />
             </main>
             {/* Footer */}
