@@ -92,7 +92,7 @@ src/
 ```
 ---
 
-## 🤝 Contribute
+## Contribute
 
 This lair thrives when others sharpen the blade.
 
