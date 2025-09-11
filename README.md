@@ -21,6 +21,11 @@ Movies, games, books, anime, music, software, and every forbidden pleasure you�
 
 ---
 
+##  Philosophy
+
+This project is built on the belief that **information wants to be free**.
+It’s not about mindless consumption — it’s about tearing down walls, finding beauty in the forbidden, and wielding culture like a weapon.
+
 ## Features
 
 - **Dark/Light Theme Toggle** - Seamless theme switching
@@ -87,14 +92,19 @@ src/
 ├── hooks/              # Custom React hooks
 └── index.css          # Global styles & design tokens
 ```
+---
 
-## Contributing
+## 🤝 Contribute
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+This lair thrives when others sharpen the blade.
+
+* Fork it
+* Add your treasures
+* Make a PR
+
+Everything here is **open source** — because true anarchy is collaborative.
+
+---
 
 ## License
 
@@ -102,4 +112,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Made by [Ahad](https://github.com/ah4ddd)**
+## Author
+
+**Made by Ahad**
+[GitHub](https://github.com/ah4ddd)
