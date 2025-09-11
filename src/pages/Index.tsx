@@ -99,8 +99,8 @@ const Index = () => {
             <header className="border-b border-border/40 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
                 <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                     <div>
-                        <h1 className="text-2xl font-bold tracking-tight">Ahad's Lair</h1>
-                        <p className="text-sm text-muted-foreground">Digital Anarchy, Absolute Pleasure</p>
+                        <h1 className="text-2xl font-bold tracking-tight">Spoils of War</h1>
+                        <p className="text-sm text-muted-foreground"></p>
                     </div>
                     <ThemeToggle />
                 </div>
@@ -110,10 +110,9 @@ const Index = () => {
             <main className="container mx-auto px-6 py-12">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
-                        Spoils of War
+                        Digital Anarchy. Handpicked, Curated, Uncensored
                     </h2>
                     <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                        Culture is not a commodity
                     </p>
                 </div>
 
